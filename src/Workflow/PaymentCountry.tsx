@@ -29,13 +29,14 @@ export default function PaymentCountry({
           style={{ fontSize: "2em", lineHeight: "2em" }}
         />
       </Box>
-      <Flex grow="1">
+      <Flex grow="3">
         <Box>
           <Text>{country}</Text>
           <Text fontSize="x-small">{currency}</Text>
         </Box>
       </Flex>
       <CustomHandle type="source" position={Position.Right} />
+      <CustomHandle type="source" position={Position.Bottom} />
       <CustomHandle type="target" position={Position.Left} />
     </Flex>
   );

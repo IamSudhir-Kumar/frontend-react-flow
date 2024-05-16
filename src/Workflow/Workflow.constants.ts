@@ -22,12 +22,6 @@ export const initialNodes: Node[] = [
     type: "paymentCountry",
   },
   {
-    id: "8",
-    data: { currency: "¥", country: "Japan", countryCode: "YEN" },
-    position: { x: 300, y: 200 },
-    type: "paymentCountry",
-  },
-  {
     id: "4",
     data: { name: "Google Pay", code: "Gp" },
     position: { x: 550, y: -50 },
